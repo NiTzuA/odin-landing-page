@@ -160,6 +160,57 @@ ul {
     font-weight: bold;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    gap: 200px;
+    justify-content: space-between;
+    margin: 100px 25px;
+    padding: 40px 100px;
+    border-radius: 5px;
+}
+
+.cto-header {
+    font-size: 18px;
+    font-weight: bold;
+    color:#f9faf8;
+}
+
+.cto-text {
+    font-size: 16px;
+    font-weight: lighter;
+    color:#f9faf8;
+}
+
+.cto-button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-width: 2px;;
+    color:#e5e7eb;
+    padding: 0px 40px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.footer-container {
+
+}
 
 
 @media (max-width: 650px) {
