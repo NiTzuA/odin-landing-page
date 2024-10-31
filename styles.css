@@ -54,7 +54,7 @@ ul {
 
 .section-one {
     background-color:#1F2937;
-    padding: 75px 25px;
+    padding: 75px 50px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -115,9 +115,17 @@ ul {
     border-color: #3882f6;
 }
 
+.talent {
+    font-weight: bold;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+
 .box-subtext {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     font-weight: 100;
     font-size: 18px;
@@ -135,11 +143,7 @@ ul {
 }
 
 .quote-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 700px;
+    max-width: 700px;
 }
 
 .quote {
@@ -150,7 +154,7 @@ ul {
 }
 
 .quote-author {
-    width: 700px;
+    margin-top: 10px;
     text-align: right;
     font-size: 18px;
     font-weight: bold;
