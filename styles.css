@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto', sans-serif;
     border: 0px;
     margin: 0px;
     padding: 0px;
@@ -6,15 +7,133 @@ body {
     flex-direction: column;
 }
 
+ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hamburger {
+    display: none;
+    color: #e5e7eb;
+  }
+
 .header, .footer {
     background-color: #1F2937;
-    font-family: 'Roboto', sans-serif;
     color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+    justify-content: space-between;
     font-size: 24px;
+    font-weight: bolder;
 }
 
 .header-items {
+    display: flex;
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 100;
+    gap: 25px;
 }
+
+.section-one {
+    background-color:#1F2937;
+    padding: 75px 25px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.signup-hero {
+    width: 750px;
+}
+
+.hero-text {
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 450;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color:#e5e7eb;
+    font-weight: 100;
+    margin: 0px 0px 10px 0px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding: 7px 25px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.section-two {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+}
+
+.box {
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid; 
+    border-color: #3882f6;
+}
+
+.box-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: ce;
+    width: 150px;
+    gap: 5px;
+}
+
+
+
+
+
+@media (max-width: 650px) {
+    .header-items {
+      display: none;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
