@@ -101,6 +101,8 @@ ul {
 .boxes {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box {
@@ -116,15 +118,43 @@ ul {
 .box-subtext {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    text-align: center;
     font-weight: 100;
     font-size: 18px;
-    text-align: ce;
     width: 150px;
     gap: 5px;
 }
 
+.section-three {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 24px;
+    font-weight: lighter;
+    color:#1F2937;
+}
+
+.quote-author {
+    width: 700px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 
